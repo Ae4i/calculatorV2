@@ -1,0 +1,84 @@
+.bg
+{
+    background-color: transparent;
+}
+.key
+{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border: 4px outset lavender;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #88bbaa;
+}
+.extrakey1
+{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 6px outset palegoldenrod;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #88bbaa;
+}
+.extrakey2
+{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border: 6px outset palegoldenrod;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #88bbaa;
+}
+.extra1
+{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border: 4px outset palegreen;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #aabb88;
+}
+.extra2
+{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border: 6px outset orchid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #aa4488;
+}
+.extra3
+{
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    border: 6px outset orchid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #aa4488;
+}
+.more
+{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 6px outset orchid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #aa88bb;
+}
+.equation
+{
+    font-size 25px;
+    font-color: green;
+    height: 60 px;
+    width: 300px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #cccccc;
+}

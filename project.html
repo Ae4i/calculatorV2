@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Calculator V2</title>
+</head>
+<body class="bg">
+    <p>
+        <input class="equation" type="text" contenteditable="false" value="some equation here">
+    </p>
+    <form method="get">
+        <button class="key" onclick="">7</button><button class="key" onclick="">8</button><button class="key" onclick="">9</button><button class="key" onclick="">+</button><button class="extra1" onclick="">^</button><button class="extra2" onclick="">^^</button><button class="extra2" onclick="">^-1</button><br>
+        <button class="key" onclick="">4</button><button class="key" onclick="">5</button><button class="key" onclick="">6</button><button class="key" onclick="">-</button><button class="extra1" onclick="">√</button><button class="extra2" onclick="">∛</button><button class="extra2" onclick="">^2</button><br>
+        <button class="key" onclick="">1</button><button class="key" onclick="">2</button><button class="key" onclick="">3</button><button class="key" onclick="">*</button><button class="extra1" onclick="">E</button><button class="extra2" onclick="">()</button><button class="extra2" onclick="">^3</button><br>
+        <button class="key" onclick="">.</button><button class="key" onclick="">0</button><input class="key" type="submit" value="="><button class="key" onclick="">/</button><button class="extra1" onclick="">x!</button><button class="extra2" onclick="">x?</button><button class="extra2" onclick="">π</button><br>
+        <button class="extra1" onclick="">log</button><button class="extra1" onclick="">ln</button><button class="extra1" onclick="">e</button><button class="more" onclick="">MORE</button><button class="extra3" onclick="">sin</button><button class="extra3" onclick="">cos</button><br>
+        <button class="extrakey1" onclick="">DELETE</button><button class="extrakey1" onclick="">CLEAR</button><button class="extra3" onclick="">tan</button><button class="extra3" onclick="">cot</button> <br>
+        <button class="extrakey2" onclick="">CLEAR ALL</button><button class="extra3" onclick="">sec</button><button class="extra3" onclick="">csc</button> <br>
+    </form>
+</body>
+<script>
+
+</script>
+</html>
