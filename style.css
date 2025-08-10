@@ -1,6 +1,6 @@
 .bg
 {
-    background-color: transparent;
+    background-image: linear-gradient(to left, lavender, burlywood);
 }
 .key
 {
@@ -74,11 +74,62 @@
 }
 .equation
 {
-    font-size 25px;
-    font-color: green;
-    height: 60 px;
-    width: 300px;
+    font-size 100px;
+    font-color: gray;
+    height: 200px;
+    width: 500px;
     border-radius: 3px;
     padding: 5px;
     background-color: #cccccc;
+}
+
+
+
+.display-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-display {
+    font-size: 22px;
+    color: #333;
+    word-break: break-all;
+    min-height: 30px;
+    text-align: right;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.result-display {
+    font-size: 34px;
+    font-weight: bold;
+    color: #222;
+    word-break: break-all;
+    text-align: right;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.bg {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
